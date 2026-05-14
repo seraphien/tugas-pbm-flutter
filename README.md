@@ -1,16 +1,16 @@
 # Screenshot
 
 ## Login Page
-![Login](loginpage.jpeg)
+![Login](Screenshot/loginpage.jpeg)
 
 ## Login Filled
-![Login Filled](loginpagetxtfilled.jpeg)
+![Login Filled](Screenshot/loginpagetxtfilled.jpeg)
 
 ## Product Catalog
-![Catalog](productCatalog.jpeg)
+![Catalog](Screenshot/productCatalog.jpeg)
 
 ## Add Product
-![Add Product](addProduct.jpeg)
+![Add Product](Screenshot/addProduct.jpeg)
 
 ## Submit Page
-![Submit](submitPage.jpeg)
+![Submit](Screenshot/submitPage.jpeg)
