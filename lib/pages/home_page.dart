@@ -71,31 +71,37 @@ class _HomePageState extends State<HomePage> {
                   },
                   title: Text(product.name),
 
-                  subtitle: Text(
-                    product.description.isEmpty ? "-" : product.description,
-                  ),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
 
-                  trailing: Row(
-                    mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text("Rp ${product.price}"),
+                      Text(
+                        product.description.isEmpty ? "-" : product.description,
+                      ),
 
-                      IconButton(
-                        icon: const Icon(Icons.delete, color: Colors.red),
+                      const SizedBox(height: 5),
 
-                        onPressed: () async {
-                          bool success = await ProductService().deleteProduct(
-                            product.id,
-                          );
-
-                          if (success) {
-                            setState(() {
-                              futureProducts = ProductService().getProducts();
-                            });
-                          }
-                        },
+                      Text(
+                        "Rp ${product.price}",
+                        style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
+                  ),
+
+                  trailing: IconButton(
+                    icon: const Icon(Icons.delete, color: Colors.red),
+
+                    onPressed: () async {
+                      bool success = await ProductService().deleteProduct(
+                        product.id,
+                      );
+
+                      if (success) {
+                        setState(() {
+                          futureProducts = ProductService().getProducts();
+                        });
+                      }
+                    },
                   ),
                 ),
               );
