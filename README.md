@@ -1,16 +1,16 @@
-# tugas_pbm
+# Screenshot
 
-A new Flutter project.
+## Login Page
+![Login](loginpage.jpeg)
 
-## Getting Started
+## Login Filled
+![Login Filled](loginpagetxtfilled.jpeg)
 
-This project is a starting point for a Flutter application.
+## Product Catalog
+![Catalog](productCatalog.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
+## Add Product
+![Add Product](addProduct.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Submit Page
+![Submit](submitPage.jpeg)
