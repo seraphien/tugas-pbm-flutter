@@ -1,16 +1,13 @@
-# Screenshot
+```html
 
-## Login Page
-![Login](Screenshot/loginpage.jpeg)
+<p align="center">
+  <img src="Screenshot/loginpage.jpeg" width="220">
+  <img src="Screenshot/loginpagetxtfilled.jpeg" width="220">
+  <img src="Screenshot/productCatalog.jpeg" width="220">
+</p>
 
-## Login Filled
-![Login Filled](Screenshot/loginpagetxtfilled.jpeg)
-
-## Product Catalog
-![Catalog](Screenshot/productCatalog.jpeg)
-
-## Add Product
-![Add Product](Screenshot/addProduct.jpeg)
-
-## Submit Page
-![Submit](Screenshot/submitPage.jpeg)
+<p align="center">
+  <img src="Screenshot/addProduct.jpeg" width="220">
+  <img src="Screenshot/submitPage.jpeg" width="220">
+</p>
+```
