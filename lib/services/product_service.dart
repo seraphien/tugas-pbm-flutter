@@ -87,7 +87,7 @@ class ProductService {
 
       body: jsonEncode({
         "name": name,
-        "price": int.parse(price),
+        "price": double.parse(price).toInt(),
         "description": description,
         "github_url": githubUrl,
       }),
